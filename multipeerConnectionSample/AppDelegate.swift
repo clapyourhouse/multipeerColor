@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  multipeerConnectionSample
-//
-//  Created by shogo.kitamura on 11/27/18.
-//  Copyright © 2018 shogo.kitamura. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

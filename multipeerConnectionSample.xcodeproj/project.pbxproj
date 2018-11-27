@@ -14,6 +14,7 @@
 		ED3CFF3621ACE243009F0873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3CFF3421ACE243009F0873 /* LaunchScreen.storyboard */; };
 		ED3CFF4121ACE243009F0873 /* multipeerConnectionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CFF4021ACE243009F0873 /* multipeerConnectionSampleTests.swift */; };
 		ED3CFF4C21ACE243009F0873 /* multipeerConnectionSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CFF4B21ACE243009F0873 /* multipeerConnectionSampleUITests.swift */; };
+		ED3CFF5A21ACE554009F0873 /* ColorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CFF5921ACE554009F0873 /* ColorService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ED3CFF4721ACE243009F0873 /* multipeerConnectionSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multipeerConnectionSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3CFF4B21ACE243009F0873 /* multipeerConnectionSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipeerConnectionSampleUITests.swift; sourceTree = "<group>"; };
 		ED3CFF4D21ACE243009F0873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3CFF5921ACE554009F0873 /* ColorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				ED3CFF2B21ACE23E009F0873 /* AppDelegate.swift */,
 				ED3CFF2D21ACE23E009F0873 /* ViewController.swift */,
+				ED3CFF5921ACE554009F0873 /* ColorService.swift */,
 				ED3CFF2F21ACE23E009F0873 /* Main.storyboard */,
 				ED3CFF3221ACE243009F0873 /* Assets.xcassets */,
 				ED3CFF3421ACE243009F0873 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3CFF5A21ACE554009F0873 /* ColorService.swift in Sources */,
 				ED3CFF2E21ACE23E009F0873 /* ViewController.swift in Sources */,
 				ED3CFF2C21ACE23E009F0873 /* AppDelegate.swift in Sources */,
 			);
@@ -433,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2BK5B9D8F;
 				INFOPLIST_FILE = multipeerConnectionSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2BK5B9D8F;
 				INFOPLIST_FILE = multipeerConnectionSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
