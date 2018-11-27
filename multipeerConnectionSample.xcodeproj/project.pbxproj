@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3CFF2C21ACE23E009F0873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CFF2B21ACE23E009F0873 /* AppDelegate.swift */; };
+		ED3CFF2E21ACE23E009F0873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CFF2D21ACE23E009F0873 /* ViewController.swift */; };
+		ED3CFF3121ACE23E009F0873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3CFF2F21ACE23E009F0873 /* Main.storyboard */; };
+		ED3CFF3321ACE243009F0873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3CFF3221ACE243009F0873 /* Assets.xcassets */; };
+		ED3CFF3621ACE243009F0873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3CFF3421ACE243009F0873 /* LaunchScreen.storyboard */; };
+		ED3CFF4121ACE243009F0873 /* multipeerConnectionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CFF4021ACE243009F0873 /* multipeerConnectionSampleTests.swift */; };
+		ED3CFF4C21ACE243009F0873 /* multipeerConnectionSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CFF4B21ACE243009F0873 /* multipeerConnectionSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED3CFF3D21ACE243009F0873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3CFF2021ACE23E009F0873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3CFF2721ACE23E009F0873;
+			remoteInfo = multipeerConnectionSample;
+		};
+		ED3CFF4821ACE243009F0873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3CFF2021ACE23E009F0873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3CFF2721ACE23E009F0873;
+			remoteInfo = multipeerConnectionSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED3CFF2821ACE23E009F0873 /* multipeerConnectionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multipeerConnectionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3CFF2B21ACE23E009F0873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED3CFF2D21ACE23E009F0873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED3CFF3021ACE23E009F0873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED3CFF3221ACE243009F0873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED3CFF3521ACE243009F0873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED3CFF3721ACE243009F0873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3CFF3C21ACE243009F0873 /* multipeerConnectionSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multipeerConnectionSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3CFF4021ACE243009F0873 /* multipeerConnectionSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipeerConnectionSampleTests.swift; sourceTree = "<group>"; };
+		ED3CFF4221ACE243009F0873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3CFF4721ACE243009F0873 /* multipeerConnectionSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multipeerConnectionSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3CFF4B21ACE243009F0873 /* multipeerConnectionSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipeerConnectionSampleUITests.swift; sourceTree = "<group>"; };
+		ED3CFF4D21ACE243009F0873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3CFF2521ACE23E009F0873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CFF3921ACE243009F0873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CFF4421ACE243009F0873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3CFF1F21ACE23E009F0873 = {
+			isa = PBXGroup;
+			children = (
+				ED3CFF2A21ACE23E009F0873 /* multipeerConnectionSample */,
+				ED3CFF3F21ACE243009F0873 /* multipeerConnectionSampleTests */,
+				ED3CFF4A21ACE243009F0873 /* multipeerConnectionSampleUITests */,
+				ED3CFF2921ACE23E009F0873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3CFF2921ACE23E009F0873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CFF2821ACE23E009F0873 /* multipeerConnectionSample.app */,
+				ED3CFF3C21ACE243009F0873 /* multipeerConnectionSampleTests.xctest */,
+				ED3CFF4721ACE243009F0873 /* multipeerConnectionSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3CFF2A21ACE23E009F0873 /* multipeerConnectionSample */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CFF2B21ACE23E009F0873 /* AppDelegate.swift */,
+				ED3CFF2D21ACE23E009F0873 /* ViewController.swift */,
+				ED3CFF2F21ACE23E009F0873 /* Main.storyboard */,
+				ED3CFF3221ACE243009F0873 /* Assets.xcassets */,
+				ED3CFF3421ACE243009F0873 /* LaunchScreen.storyboard */,
+				ED3CFF3721ACE243009F0873 /* Info.plist */,
+			);
+			path = multipeerConnectionSample;
+			sourceTree = "<group>";
+		};
+		ED3CFF3F21ACE243009F0873 /* multipeerConnectionSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CFF4021ACE243009F0873 /* multipeerConnectionSampleTests.swift */,
+				ED3CFF4221ACE243009F0873 /* Info.plist */,
+			);
+			path = multipeerConnectionSampleTests;
+			sourceTree = "<group>";
+		};
+		ED3CFF4A21ACE243009F0873 /* multipeerConnectionSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CFF4B21ACE243009F0873 /* multipeerConnectionSampleUITests.swift */,
+				ED3CFF4D21ACE243009F0873 /* Info.plist */,
+			);
+			path = multipeerConnectionSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3CFF2721ACE23E009F0873 /* multipeerConnectionSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3CFF5021ACE243009F0873 /* Build configuration list for PBXNativeTarget "multipeerConnectionSample" */;
+			buildPhases = (
+				ED3CFF2421ACE23E009F0873 /* Sources */,
+				ED3CFF2521ACE23E009F0873 /* Frameworks */,
+				ED3CFF2621ACE23E009F0873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multipeerConnectionSample;
+			productName = multipeerConnectionSample;
+			productReference = ED3CFF2821ACE23E009F0873 /* multipeerConnectionSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED3CFF3B21ACE243009F0873 /* multipeerConnectionSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3CFF5321ACE243009F0873 /* Build configuration list for PBXNativeTarget "multipeerConnectionSampleTests" */;
+			buildPhases = (
+				ED3CFF3821ACE243009F0873 /* Sources */,
+				ED3CFF3921ACE243009F0873 /* Frameworks */,
+				ED3CFF3A21ACE243009F0873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3CFF3E21ACE243009F0873 /* PBXTargetDependency */,
+			);
+			name = multipeerConnectionSampleTests;
+			productName = multipeerConnectionSampleTests;
+			productReference = ED3CFF3C21ACE243009F0873 /* multipeerConnectionSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED3CFF4621ACE243009F0873 /* multipeerConnectionSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3CFF5621ACE243009F0873 /* Build configuration list for PBXNativeTarget "multipeerConnectionSampleUITests" */;
+			buildPhases = (
+				ED3CFF4321ACE243009F0873 /* Sources */,
+				ED3CFF4421ACE243009F0873 /* Frameworks */,
+				ED3CFF4521ACE243009F0873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3CFF4921ACE243009F0873 /* PBXTargetDependency */,
+			);
+			name = multipeerConnectionSampleUITests;
+			productName = multipeerConnectionSampleUITests;
+			productReference = ED3CFF4721ACE243009F0873 /* multipeerConnectionSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3CFF2021ACE23E009F0873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = shogo.kitamura;
+				TargetAttributes = {
+					ED3CFF2721ACE23E009F0873 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ED3CFF3B21ACE243009F0873 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ED3CFF2721ACE23E009F0873;
+					};
+					ED3CFF4621ACE243009F0873 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ED3CFF2721ACE23E009F0873;
+					};
+				};
+			};
+			buildConfigurationList = ED3CFF2321ACE23E009F0873 /* Build configuration list for PBXProject "multipeerConnectionSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3CFF1F21ACE23E009F0873;
+			productRefGroup = ED3CFF2921ACE23E009F0873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3CFF2721ACE23E009F0873 /* multipeerConnectionSample */,
+				ED3CFF3B21ACE243009F0873 /* multipeerConnectionSampleTests */,
+				ED3CFF4621ACE243009F0873 /* multipeerConnectionSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3CFF2621ACE23E009F0873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3CFF3621ACE243009F0873 /* LaunchScreen.storyboard in Resources */,
+				ED3CFF3321ACE243009F0873 /* Assets.xcassets in Resources */,
+				ED3CFF3121ACE23E009F0873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CFF3A21ACE243009F0873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CFF4521ACE243009F0873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3CFF2421ACE23E009F0873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3CFF2E21ACE23E009F0873 /* ViewController.swift in Sources */,
+				ED3CFF2C21ACE23E009F0873 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CFF3821ACE243009F0873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3CFF4121ACE243009F0873 /* multipeerConnectionSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CFF4321ACE243009F0873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3CFF4C21ACE243009F0873 /* multipeerConnectionSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED3CFF3E21ACE243009F0873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3CFF2721ACE23E009F0873 /* multipeerConnectionSample */;
+			targetProxy = ED3CFF3D21ACE243009F0873 /* PBXContainerItemProxy */;
+		};
+		ED3CFF4921ACE243009F0873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3CFF2721ACE23E009F0873 /* multipeerConnectionSample */;
+			targetProxy = ED3CFF4821ACE243009F0873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED3CFF2F21ACE23E009F0873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3CFF3021ACE23E009F0873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED3CFF3421ACE243009F0873 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3CFF3521ACE243009F0873 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3CFF4E21ACE243009F0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED3CFF4F21ACE243009F0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3CFF5121ACE243009F0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = multipeerConnectionSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.multipeerConnectionSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED3CFF5221ACE243009F0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = multipeerConnectionSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.multipeerConnectionSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED3CFF5421ACE243009F0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = multipeerConnectionSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.multipeerConnectionSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeerConnectionSample.app/multipeerConnectionSample";
+			};
+			name = Debug;
+		};
+		ED3CFF5521ACE243009F0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = multipeerConnectionSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.multipeerConnectionSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeerConnectionSample.app/multipeerConnectionSample";
+			};
+			name = Release;
+		};
+		ED3CFF5721ACE243009F0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = multipeerConnectionSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.multipeerConnectionSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = multipeerConnectionSample;
+			};
+			name = Debug;
+		};
+		ED3CFF5821ACE243009F0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = multipeerConnectionSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acn.multipeerConnectionSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = multipeerConnectionSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3CFF2321ACE23E009F0873 /* Build configuration list for PBXProject "multipeerConnectionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3CFF4E21ACE243009F0873 /* Debug */,
+				ED3CFF4F21ACE243009F0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3CFF5021ACE243009F0873 /* Build configuration list for PBXNativeTarget "multipeerConnectionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3CFF5121ACE243009F0873 /* Debug */,
+				ED3CFF5221ACE243009F0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3CFF5321ACE243009F0873 /* Build configuration list for PBXNativeTarget "multipeerConnectionSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3CFF5421ACE243009F0873 /* Debug */,
+				ED3CFF5521ACE243009F0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3CFF5621ACE243009F0873 /* Build configuration list for PBXNativeTarget "multipeerConnectionSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3CFF5721ACE243009F0873 /* Debug */,
+				ED3CFF5821ACE243009F0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3CFF2021ACE23E009F0873 /* Project object */;
+}
